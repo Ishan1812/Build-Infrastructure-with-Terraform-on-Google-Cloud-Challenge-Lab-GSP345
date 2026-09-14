@@ -105,7 +105,7 @@ resource "google_compute_instance" "tf-instance-1" {
 
     boot_disk {
         initialize_params {
-            image = "debian-cloud/debian-11"
+            image = "debian-cloud/debian-12"
         }
     }
 
@@ -125,7 +125,7 @@ resource "google_compute_instance" "tf-instance-2" {
 
     boot_disk {
         initialize_params {
-            image = "debian-cloud/debian-11"
+            image = "debian-cloud/debian-12"
         }
     }
 
@@ -207,7 +207,7 @@ resource "google_compute_instance" "tf-instance-1" {
 
     boot_disk {
         initialize_params {
-            image = "debian-cloud/debian-11"
+            image = "debian-cloud/debian-12"
         }
     }
 
@@ -227,7 +227,7 @@ resource "google_compute_instance" "tf-instance-2" {
 
     boot_disk {
         initialize_params {
-            image = "debian-cloud/debian-11"
+            image = "debian-cloud/debian-12"
         }
     }
 
@@ -247,7 +247,7 @@ resource "google_compute_instance" "$INSTANCE" {
 
     boot_disk {
         initialize_params {
-            image = "debian-cloud/debian-11"
+            image = "debian-cloud/debian-12"
         }
     }
 
@@ -282,7 +282,7 @@ resource "google_compute_instance" "tf-instance-1" {
 
     boot_disk {
         initialize_params {
-            image = "debian-cloud/debian-11"
+            image = "debian-cloud/debian-12"
         }
     }
 
@@ -302,7 +302,7 @@ resource "google_compute_instance" "tf-instance-2" {
 
     boot_disk {
         initialize_params {
-            image = "debian-cloud/debian-11"
+            image = "debian-cloud/debian-12"
         }
     }
 
@@ -360,7 +360,7 @@ resource "google_compute_instance" "tf-instance-1" {
 
     boot_disk {
         initialize_params {
-            image = "debian-cloud/debian-11"
+            image = "debian-cloud/debian-12"
         }
     }
 
@@ -381,7 +381,7 @@ resource "google_compute_instance" "tf-instance-2" {
 
     boot_disk {
         initialize_params {
-            image = "debian-cloud/debian-11"
+            image = "debian-cloud/debian-12"
         }
     }
 
